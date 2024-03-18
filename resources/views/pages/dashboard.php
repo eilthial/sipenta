@@ -21,7 +21,7 @@
         <?php }?>
 
     </ol>
-    <img src="images/totodile pc.png" width="1000px">
+    <img src=" " width="1000px">
     <div>
         Copyright <?= date("Y")?>
     </div>
