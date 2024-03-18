@@ -16,7 +16,7 @@
     </ol>
 
     <div>
-    <img src="images/totodile pc.png" alt="" height="450px" width="1000px">
+    <img src="" alt="" height="450px" width="1000px">
     </div>
 
     <div> <br>
