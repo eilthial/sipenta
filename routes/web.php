@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\http\Controllers\MahasiswaController;
+use App\http\Controllers\DosenController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -84,6 +85,16 @@ Route::get('/student/mahasiswa', function () {
 
 //Route utama
 Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('/mahasiswa',[MahasiswaController::class,'index']);
+
+Route::get('/dosen',[DosenController::class,'all']);
+
+Route::get('/prodi',[MahasiswaController::class,'prodi']);
+
+Route::get('/login', function () {
     return view('login');
 });
 
