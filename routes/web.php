@@ -84,7 +84,7 @@ Route::get('/dashboard', function () {
 
 //Route utama
 Route::get('/', function () {
-    return view('home');
+    return view('landingpage');
 });
 
 Route::get('/mahasiswa', function () {
