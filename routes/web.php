@@ -96,7 +96,3 @@ Route::get('/mahasiswa', function () {
     ];
     return view('mahasiswa')->with(['data' => $mahasiswa]);
 });
-
-Route::get('/login', function () {
-    return view('login');
-});
